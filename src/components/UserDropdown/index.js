@@ -61,7 +61,7 @@ const UserDropdown = (props) => {
           vertical: 'bottom',
           horizontal: 'left',
         }}
-        sx={{borderRadius : '50px'}}
+        sx={{borderRadius : '50px', zIndex: 999, height : 530}}
       >
         <div className='user-drop-down-avatar-wrapper'>
             <div className='user-drop-down-avatar'>

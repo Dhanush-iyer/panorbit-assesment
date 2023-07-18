@@ -96,7 +96,7 @@ const ProfileSection2 = (props) => {
             </div>
 
             <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0560163691994!2d77.50352317375155!3d12.968267414954044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c2da2e68f01%3A0x4c3a209539881a1b!2sDigital%20Shark%20Technology%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1689663644650!5m2!1sen!2sin" width="700" height="350" allowfullscreen="" loading="lazy" style={{border : '0px'}} referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0560163691994!2d77.50352317375155!3d12.968267414954044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c2da2e68f01%3A0x4c3a209539881a1b!2sDigital%20Shark%20Technology%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1689663644650!5m2!1sen!2sin" width="100%" height="350" allowfullscreen="" loading="lazy" style={{border : '0px'}} referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
 

@@ -8,6 +8,7 @@ import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
 import { CardHeader } from '@mui/material';
 import {useNavigate} from 'react-router-dom';
+import CircularProgress from '@mui/material/CircularProgress';
 
 // import { makeStyles } from "@mui/styles/makeStyles";
 
@@ -50,13 +51,12 @@ const LandingPage = (props) => {
     return (
         <div>
             <section className='wave'>
-
             
-            {isLoading ? <div className='loading'>Loading..</div> : 
+            {isLoading ? <div className='loading'><CircularProgress /></div> : 
 
                 <div className='card'>
 
-                    <Card sx={{ width: 700, height: 500, borderRadius : '30px' }}>
+                    <Card sx={{ width: 700, height: 500, borderRadius : '30px',zIndex: 999 }}>
 
                         <CardContent sx = {{backgroundColor : "#f6f6f6"}}>
                             <Typography sx={{ fontSize: 36, fontWeight: 'bold', textAlign: 'center',  }} color="text.secondary" gutterBottom>

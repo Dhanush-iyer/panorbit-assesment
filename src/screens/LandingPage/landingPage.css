@@ -8,23 +8,24 @@ section {
     position: relative;
     background: linear-gradient(90deg, #6c2fc8, #3d57c8);    
 }
-.wave::after{
-    /* content: ""; 
+.wave::before{
+    content: ""; 
     position: absolute;
-    bottom: -100px;
+    bottom: 0px;
     left: 0;
     width: 100%;
-    height: 272px;
-    background-image: url("../assets/wave.png");
+    height: 268px;
+    background-image: url("../../assets/wave.png");
     background-size: cover;
-    background-repeat: no-repeat; */
-    /* z-index: -1; */
+    background-repeat: no-repeat;   
 }
+
 .card {
     height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .displaying-accounts {
     display: flex;    

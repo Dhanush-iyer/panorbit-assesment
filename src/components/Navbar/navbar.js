@@ -6,11 +6,12 @@ import Divider from '@mui/material/Divider';
 import UserDropdown from '../UserDropdown';
 import { Widget } from "react-chat-widget";
 import "react-chat-widget/lib/styles.css";
+import zIndex from '@mui/material/styles/zIndex';
 
 const Navbar = (props) => {
     const navigate = useNavigate();
     const [section, setSection] = useState("Profile")
-    
+
 
     const SidebarData = [
 
@@ -37,7 +38,7 @@ const Navbar = (props) => {
     ];
 
     const movePage = (item) => {
-        
+
         setSection(item.title)
         navigate(item.path)
     }
@@ -51,33 +52,32 @@ const Navbar = (props) => {
             style={{
                 backgroundColor: "#3d57c8",
                 position: "relative",
-                width: "300px",
-                padding: "10px",
+                width: "200px",
                 top: "20px",
-                cursor : 'pointer',
-                borderTopLeftRadius : '40px',
-                borderTopRightRadius : '40px',
-
+                cursor: 'pointer',
+                borderTopLeftRadius: '10px',
+                borderTopRightRadius: '10px',
             }}
         >
-            <p
+            <div
                 style={{
                     color: "white",
-                    fontSize : '15px',
-                    fontWeight : 'normal',
-                    backgroundColor: "#3d57c8",
+                    fontSize: '15px',
+                    fontWeight: 'normal',
                     textAlign: "initial",
+                    padding: '12px',
+                    
                 }}
             >
                 Chats
-            </p>
+            </div>
         </div>
     );
 
     return (
         <>
             <div className='navbar'>
-              <div className='nav-section'>
+                <div className='nav-section'>
                     {section}
                 </div>
                 <div>
@@ -90,8 +90,8 @@ const Navbar = (props) => {
                         return (
                             <div className={`nav-title ${section === item.title ? 'active' : ''}`} onClick={() => { movePage(item) }}>
 
-                            {item.title}
-                            
+                                {item.title}
+
 
                                 <Divider sx={{ backgroundColor: 'lightgrey' }} />
 
@@ -107,8 +107,8 @@ const Navbar = (props) => {
             <div >
                 <Widget
                     handleNewUserMessage={handleNewUserMessage}
-                    launcher={(handleToggle) => 
-                
+                    launcher={(handleToggle) =>
+
                         getCustomLauncher(handleToggle)
                     }
                     title="Chat"

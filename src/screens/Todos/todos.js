@@ -2,7 +2,7 @@ import React from "react";
 
 const Todos = () => {
     return (
-        <div style={ {fontWeight :"bold",display : 'flex',justifyContent : 'center',alignItems :'center',height : '100vh',fontSize:'100px',color :"#f4f4f4"}}>
+        <div style={ {fontWeight :"bold",display : 'flex',justifyContent : 'center',alignItems :'center',fontSize:'100px',color :"#f4f4f4", height :'100vh'}}>
             Comming Soon!!
         </div>
     )
