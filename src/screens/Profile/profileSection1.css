@@ -1,0 +1,53 @@
+.profile-section-1-container { 
+    margin: 24px;
+    
+}
+
+.profile-section-1-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-section-1-name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .profile-section-1-details {
+    display: flex;
+    justify-content: space-between;   
+    margin-bottom: 15px;
+  }
+  .profile-section-1-details-heaading {
+    /* text-align: start; */
+    font-size: 20px;
+    width : 70px;
+    font-weight: 500;
+    color: #c4c4c4;
+  }
+  .profile-section-1-details-semicolon {
+    width: 10px;
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .profile-section-1-details-answer {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .profile-section-1-details-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 10px;
+  }
+  .profile-section-1-details-company{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #c4c4c4;
+  }

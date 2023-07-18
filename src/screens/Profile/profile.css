@@ -1,0 +1,18 @@
+.profile {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-wrapper {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.profile-line {
+    height: 100%;
+    /* width: 10%; */
+    border: 1px solid #c4c4c4;
+}
+.profile-line-wrapper {
+    
+    margin: 20px;
+}

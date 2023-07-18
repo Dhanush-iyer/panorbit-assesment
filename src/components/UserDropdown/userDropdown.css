@@ -1,0 +1,67 @@
+.nav-avatar-name-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .nav-avatar{
+    margin-right: 10px;
+  }
+  .nav-name{
+    margin-right: 30px;
+    font-size: 30px;
+  }
+  .user-drop-down-avatar-wrapper{
+    width: 350px;
+    
+    
+  }
+  .user-drop-down-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .user-drop-down-signout-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .user-drop-down-signout-button{    
+    color: white;
+    background-color: #d55151;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: none;    
+    cursor: pointer;
+  }
+  .user-drop-down-name {
+    text-align: center;
+    font-size: 20px;
+  }
+  .user-drop-down-email{
+    text-align: center;
+    font-size: 20px;
+    color: lightgray;
+  }
+  .user-drop-down-listingUser{
+    height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .user-drop-down-displaying-accounts {
+    display: flex;    
+    padding : 20px;
+    margin : 0px 16px 0px 16px;
+    cursor: pointer;   
+}
+
+.user-drop-down-displaying-profile-name{
+    margin-left: 16px;
+}
+.user-drop-down-displaying-profile-picture{
+    margin-left: 16px
+}
